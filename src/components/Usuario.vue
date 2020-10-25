@@ -1,13 +1,13 @@
 <template>
     <main>
-        <img class="wave" src="@/assets/wave.svg" />
+        <img class="wave" src="../assets/wave.svg" />
         <div class="container">
             <div class="img">
-                <img src="@/assets/background.svg" />
+                <img src="../assets/background.svg" />
             </div>
             <div class="login-container">
                 <form>
-                    <img class="avatar" src="@/assets/avatar.svg" />
+                    <img class="avatar" src="../assets/avatar.svg" />
                     <h2>Bem vindo de volta</h2>
                     <div :class="['input-div one', { focus: isFocus }]">
                         <div class="i">
