@@ -7,6 +7,11 @@
 <script>
 export default {
     name: 'App',
+    watch: {
+        $route() {
+            location.reload()
+        },
+    },
 }
 </script>
 
