@@ -3,9 +3,7 @@
         <img class="wave" src="../assets/wave.svg" />
         <div class="container">
             <div class="img">
-                <img
-                    src="https://raw.githubusercontent.com/marcos-pereira-jr/bambu/9092d1fa88118170382f4033c765d2a81bf6e6ce/src/assets/background.svg"
-                />
+                <img src="../assets/background.svg" />
             </div>
             <div class="login-container">
                 <form>
