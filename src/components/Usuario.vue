@@ -7,7 +7,10 @@
             </div>
             <div class="login-container">
                 <form>
-                    <img class="avatar" src="../assets/avatar.svg" />
+                    <img
+                        class="avatar"
+                        src="https://raw.githubusercontent.com/marcos-pereira-jr/bambu/9092d1fa88118170382f4033c765d2a81bf6e6ce/src/assets/background.svg"
+                    />
                     <h2>Bem vindo de volta</h2>
                     <div :class="['input-div one', { focus: isFocus }]">
                         <div class="i">
