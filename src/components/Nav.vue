@@ -91,8 +91,7 @@ header {
 }
 .nav-btn {
     flex: 3;
-    /* display: flex; */
-    display: none;
+    display: flex;
 }
 .nav-links {
     flex: 2;
@@ -219,5 +218,11 @@ header {
     transform: translate(0, 0);
     opacity: 1;
     pointer-events: auto;
+}
+
+@media (max-width: 920px) {
+    .nav-btn {
+        display: none;
+    }
 }
 </style>
