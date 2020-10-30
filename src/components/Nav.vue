@@ -11,23 +11,7 @@
                             <a href="#">Home</a>
                         </li>
                         <li class="nav-link">
-                            <a href="#"
-                                >Menu <i class="fas fa-caret-down"></i>
-                            </a>
-                            <div class="dropdown">
-                                <ul>
-                                    <li class="dropdown-link">
-                                        <a href="#">Drop</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Drop</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Drop</a>
-                                    </li>
-                                    <div class="arrow"></div>
-                                </ul>
-                            </div>
+                            <a href="#">Menu </a>
                         </li>
                         <li class="nav-link">
                             <a href="#">Perfil </a>
@@ -164,38 +148,6 @@ header {
     transform: scale(1.1);
 }
 
-.dropdown {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 10rem;
-    transform: translateY(10px);
-    opacity: 0;
-    pointer-events: none;
-    transition: 0.5s;
-}
-
-.dropdown ul {
-    position: relative;
-}
-
-.dropdown-link > a {
-    display: flex;
-    background-color: #fff;
-    color: #00bfa6;
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
-    align-items: center;
-    justify-content: space-between;
-    transition: 0.3px;
-}
-.dropdown-link:hover > a {
-    background-color: #00bfa6;
-    color: #fff;
-}
-.dropdown-link:not(:nth-last-child(2)) {
-    border-bottom: 1px solid #efefef;
-}
 .arrow {
     position: absolute;
     width: 11px;
@@ -206,18 +158,6 @@ header {
     transform: rotate(45deg);
     cursor: pointer;
     transition: 0.3s;
-}
-.dropdown-link:first-child:hover ~ .arrow {
-    background-color: #00bfa6;
-}
-.dropdown-link {
-    position: relative;
-}
-
-.nav-link:hover > .dropdown {
-    transform: translate(0, 0);
-    opacity: 1;
-    pointer-events: auto;
 }
 
 @media (max-width: 920px) {
