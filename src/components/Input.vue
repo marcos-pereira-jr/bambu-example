@@ -17,7 +17,7 @@
                 @input="input"
                 :value="value"
                 class="input"
-                type="text"
+                :type="type"
             />
         </div>
     </div>
@@ -31,6 +31,11 @@ export default {
         icon: {
             type: String,
             required: false,
+        },
+        type: {
+            type: String,
+            required: false,
+            default: 'text',
         },
     },
     data() {

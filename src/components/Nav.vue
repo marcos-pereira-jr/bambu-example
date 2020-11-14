@@ -17,7 +17,7 @@
                             <a href="#">Perfil </a>
                         </li>
                         <li class="nav-link">
-                            <a href="#">About</a>
+                            <a href="#">Sobre nós</a>
                         </li>
                     </ul>
                 </div>
