@@ -41,6 +41,9 @@ export default {
 }
 </script>
 <style scoped>
+.mainUser {
+    background: #ffffff !important;
+}
 * {
     padding: 0;
     margin: 0;
