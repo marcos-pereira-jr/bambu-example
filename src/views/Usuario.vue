@@ -4,6 +4,13 @@
         <div class="container">
             <div class="img">
                 <img src="../assets/background.svg" />
+                <div class="about">
+                    <p>
+                        Bambu é uma plataforma de financiamento digital para
+                        projetos de pequenos agricultores que aderirão ao
+                        desenvolvimento sustentável
+                    </p>
+                </div>
             </div>
             <div class="login-container">
                 <form
@@ -124,6 +131,17 @@ a:houver {
 .btn:hover {
     background-position: right;
 }
+.about {
+    background: #fefefe;
+    padding: 2px;
+    margin-top: 250px;
+    opacity: 0.8;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 2px solid rgb(0, 191, 166);
+    width: 250px;
+}
 
 /* responsivo, quando o width chegar a 1052px  */
 @media screen and (max-width: 1050px) {
@@ -159,6 +177,9 @@ a:houver {
     }
     .login-container {
         justify-content: center;
+    }
+    .about {
+        display: none;
     }
 }
 </style>
