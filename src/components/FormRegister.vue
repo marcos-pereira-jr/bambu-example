@@ -59,7 +59,7 @@ export default {
 }
 </script>
 
-<style scope>
+<style scoped>
 .container {
     background-color: #014738;
     margin-top: 30px;
