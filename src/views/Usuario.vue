@@ -6,7 +6,10 @@
                 <img src="../assets/background.svg" />
             </div>
             <div class="login-container">
-                <form class="form">
+                <form
+                    class="form"
+                    action="https://marcos-pereira-jr.github.io/bambu/#/"
+                >
                     <img class="avatar" src="../assets/avatar.svg" />
                     <h2>Bem vindo de volta</h2>
 
@@ -21,7 +24,9 @@
                         v-model="password"
                         label="Senha"
                     />
-                    <a href="a"> Esqueceu a senha </a>
+                    <a href="https://marcos-pereira-jr.github.io/bambu/#/">
+                        Esqueceu a senha
+                    </a>
                     <input type="submit" class="btn" value="Login" />
                 </form>
             </div>
