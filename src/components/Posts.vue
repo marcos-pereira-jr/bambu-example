@@ -10,7 +10,7 @@ export default {
     components: { Post },
 }
 </script>
-<style>
+<style scoped>
 .posts {
     display: flex;
     align-items: center;
