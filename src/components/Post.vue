@@ -58,7 +58,7 @@ export default {
     },
 }
 </script>
-<style scoped>
+<style>
 img {
     width: 10vw;
 }
