@@ -147,6 +147,7 @@ a:houver {
     }
     .container {
         grid-template-columns: 1fr;
+        padding: 0 !important;
     }
     .wave {
         display: none;

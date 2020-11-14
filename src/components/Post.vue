@@ -145,4 +145,9 @@ img {
     background-size: 150%;
     transition: 0.05s;
 }
+@media screen and (max-width: 400px) {
+    .container-count {
+        font-size: 0.9rem !important;
+    }
+}
 </style>
