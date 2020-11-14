@@ -1,7 +1,6 @@
 <template>
     <div class="posts">
         <Post />
-        <Post title="Ultimo porjeto" />
     </div>
 </template>
 <script>
