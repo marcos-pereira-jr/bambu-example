@@ -1,6 +1,6 @@
 <template>
     <main class="main">
-        <section>
+        <section class="section">
             <FormRegister />
         </section>
     </main>
@@ -21,7 +21,7 @@ export default {
     height: 100%;
     background: #d3cce3;
 }
-section {
+.section {
     display: flex;
     align-items: center;
     flex-direction: column;

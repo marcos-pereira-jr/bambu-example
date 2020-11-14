@@ -6,7 +6,7 @@
                 <img src="../assets/background.svg" />
             </div>
             <div class="login-container">
-                <form>
+                <form class="form">
                     <img class="avatar" src="../assets/avatar.svg" />
                     <h2>Bem vindo de volta</h2>
 
@@ -41,9 +41,6 @@ export default {
 }
 </script>
 <style scoped>
-.mainUser {
-    background: #ffffff !important;
-}
 * {
     padding: 0;
     margin: 0;
@@ -85,11 +82,11 @@ export default {
 .avatar {
     width: 100px;
 }
-form {
+.form {
     width: 360px;
 }
 /*controla o tamanho do form */
-form h2 {
+.form h2 {
     margin: 15px 0;
     color: #333;
 }

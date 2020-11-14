@@ -36,9 +36,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
+/*body {
     overflow: hidden;
-}
+}*/
 ul {
     list-style: none;
 }
