@@ -21,13 +21,6 @@ export default {
 </script>
 
 <style scoped>
-.posts {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    height: 100%;
-}
-
 .mainHome {
     width: 100%;
     background: #d3cce3;
