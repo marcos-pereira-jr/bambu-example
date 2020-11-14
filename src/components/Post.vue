@@ -70,7 +70,6 @@ img {
     display: grid;
     margin-top: 10vh;
     width: 60vw;
-    /* height: calc(100vh -40vw); */
     background-color: #f5f5f5;
     grid-template-areas:
         'user container-title container-title container-title container-count'
