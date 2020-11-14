@@ -1,5 +1,5 @@
 <template>
-    <main>
+    <main class="mainUser">
         <img class="wave" src="../assets/wave.svg" />
         <div class="container">
             <div class="img">
