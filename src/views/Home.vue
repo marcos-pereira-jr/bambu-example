@@ -1,5 +1,5 @@
 <template>
-    <main>
+    <main class="mainHome">
         <Nav />
         <section>
             <Posts />
@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .posts {
     display: flex;
     align-items: center;
@@ -28,7 +28,7 @@ export default {
     height: 100%;
 }
 
-main {
+.mainHome {
     width: 100%;
     background: #d3cce3;
 }
