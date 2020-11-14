@@ -1,5 +1,5 @@
 <template>
-    <main>
+    <main class="main">
         <section>
             <FormRegister />
         </section>
@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style>
-main {
+.main {
     width: 100%;
     height: 100%;
     background: #d3cce3;
