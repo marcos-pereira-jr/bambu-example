@@ -15,7 +15,7 @@ export default {
 }
 </script>
 
-<style scope>
+<style scoped>
 main {
     width: 100%;
     height: 100%;

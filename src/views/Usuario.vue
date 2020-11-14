@@ -40,7 +40,7 @@ export default {
     },
 }
 </script>
-<style scope>
+<style scoped>
 * {
     padding: 0;
     margin: 0;
